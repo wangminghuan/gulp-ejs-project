@@ -1,0 +1,88 @@
+@charset "UTF-8";
+html, body, p, ol, ul, li, dl, dt, dd, blockquote, figure, fieldset, legend, textarea, pre, iframe, hr, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+  font-weight: normal; }
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit; }
+
+body {
+  -webkit-text-size-adjust: none;
+  font-family: "微软雅黑", Arial, Helvetica, sans-serif;
+  color: #333;
+  font-size: 12px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-align: stretch; }
+
+section, nav, article, aside, hgroup, header, footer {
+  display: block; }
+
+/* 清除iphone 内核样式 */
+input[type="submit"],
+input[type="text"],
+input[type="reset"],
+input[type="button"],
+button {
+  -webkit-appearance: none;
+  border-radius: 0; }
+
+input, textarea, select, button, table {
+  font-size: inherit;
+  font-family: inherit;
+  line-height: inherit;
+  margin: 0;
+  border: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+strong, b {
+  font-weight: normal; }
+
+td, th {
+  padding: 0;
+  text-align: left; }
+
+img, fieldset {
+  border: 0; }
+
+ul, ol, li {
+  list-style: none; }
+
+i, em, address, b {
+  font-style: normal; }
+
+a {
+  color: inherit;
+  text-decoration: none; }
+
+hr, legend {
+  display: none; }
+
+img, embed, object, audio, video {
+  height: auto;
+  max-width: 100%; }
+
+iframe {
+  width: 0;
+  height: 0;
+  line-height: 0;
+  overflow: hidden;
+  display: none; }
+
+.wrap {
+  height: 1.33333rem; }
