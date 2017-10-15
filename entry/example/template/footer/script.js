@@ -1,1 +1,3 @@
-console.log("footer.js is load")
+(function(){
+    console.log("footer.js is load")
+})

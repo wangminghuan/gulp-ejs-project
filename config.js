@@ -16,6 +16,7 @@ var activeProject=argv[argv.length-1].replace(/^--/g,"");
 //当前活动项目
 var entryPath=path.resolve(__dirname,"entry/"+activeProject);
 var __path={
+	pageConfig:path.resolve(entryPath, "pageConfig.json"),//app目录
 	basePath:entryPath,
 	appPath:path.resolve(entryPath, "app"),//app目录
 	entry: path.resolve(entryPath, "app/index.js"),//入口js

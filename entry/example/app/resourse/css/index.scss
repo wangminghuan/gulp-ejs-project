@@ -1,7 +1,0 @@
-@import "../../../../../common/reset.css";
-@function pxToRem($px) {
-    @return $px / 75px * 1rem;
-}
-.wrap{
-    height: pxToRem(100px)
-}
